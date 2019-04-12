@@ -17,7 +17,7 @@ def getData():
     	time = str(row[1])
     	temp_inside = row[2]
     	temp_outside = row[3]
-    	hum_inside = row[2]
+    	hum_inside = row[4]
     conn.close()
     return date, time, temp_inside, temp_outside, hum_inside
 

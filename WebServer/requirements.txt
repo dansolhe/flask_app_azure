@@ -1,0 +1,5 @@
+sudo apt-get install update
+sudo apt-get install mssql-tools
+sudo apt-get install unixodbc-dev
+pip install pyodbc
+pip install flask
